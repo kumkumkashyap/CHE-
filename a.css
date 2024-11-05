@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+.cont1{
+    margin-top: 8rem;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem
+    ;
+}
+.cont1 .box1{
+    margin: 0;
+    padding: 0;
+    margin-left: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    width: 38rem;
+
+}
+.cont1 .box2 img{
+    width: 35rem;
+    height: 35rem;
+}
+.cont1 .box2{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+}
+.cont1 .box1 h2{
+    text-align:left;
+    font-size: 5rem;
+    color: transparent;
+    background: linear-gradient(to right , rgb(48, 221, 123) ,rgb(26, 116, 168) );
+    background-clip: text;
+}
+.cont1 .box1 p{
+    font-size: 3rem;
+    color: transparent;
+    background: linear-gradient(to right , rgb(48, 221, 123) ,rgb(16, 179, 224) );
+    background-clip: text;
+
+}
+
+.cont2{
+    width:100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+    margin-bottom: 0rem;
+}
+
+.cont2 .box1{
+    background-color: rgb(0, 0, 0);
+    width: 25rem;
+    height: 33rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.cont2 .box1:hover{
+    background: linear-gradient(to right , rgb(15, 69, 38) ,rgb(93, 146, 161) );
+
+}
+.cont2 .box1 h2{
+    font-size: 3rem;
+    color: transparent;
+    background: linear-gradient(to right , rgb(48, 221, 123) ,rgb(16, 179, 224) );
+    background-clip: text;
+    text-align: center;
+}
+
+.cont2 .box1 img{
+    margin-top: 3rem;
+    object-fit: cover;
+    width:21rem;
+    aspect-ratio: 3/3;
+    border-radius: 2rem;
+ 
+}
+.cont3{
+    margin-top: 0rem;
+    width:95%;
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.cont3 h2{
+    font-size: 6.8rem;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(to right , rgb(48, 221, 123) ,rgb(16, 179, 224) );
+    background-clip: text;
+
+}
+.cont3 p{
+    margin: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(to right , rgb(48, 221, 123) ,rgb(16, 179, 224) );
+    background-clip: text;
+    
+}
+.cont4{
+    width:100%;
+    height: fit-content;
+    margin-bottom: 5rem;
+}
+.cont4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 43vh;
+}
